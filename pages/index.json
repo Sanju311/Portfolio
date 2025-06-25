@@ -1,0 +1,60 @@
+{
+  "navigation": [
+		{
+			"title": "About",
+			"url": "http://www.example.com/about"
+		},
+		{
+			"title": "Projects",
+			"url": "http://www.example.com/portfolio"
+		},
+		{
+			"title": "Contact",
+			"url": "http://www.example.com/contact"
+		}
+	],
+  "hero": {
+    "name": "Sanju Sathiyamoorthy",
+    "subtitle": "I like to build things."
+  },
+  "about": {
+    "title": "About me",
+    "image": "/placeholder.png",
+    "primary": "I'm a software engineer driven by curiosity and drawn to complexity. I have a passion for building scalable systems with a focus in backend development and data-driven analysis. I'm currently seeking new grad SWE roles related to AI startups & real time fintech systems where I can contribute to high-performance, impactful products. ",
+    "secondary": "Beyond the keyboard, you'll find me immersed in various sports, trying new food, or critiquing new movies."
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "AI Movie Suggestion Webapp",
+        "description": "Deployed a full-stack AI webapp using Railway to provide personalized movie recommendations using Flask & React. I Developed a multi-threaded Selenium web scraper to efficiently scrape user rating history from their public Letterboxd profile. Using this data I trained an XGBoost model with 10+ features (Bag of Words/1 hot encoding) to predict user ratings on a 20000 movie dataset",
+        "url": "https://movie-suggestion.up.railway.app/",
+        "github": "https://github.com/Sanju311/Movie-Suggestion-Backend",
+        "image": "/movie-page-final.png"
+      },
+      {
+				"title": "+EV Sports Betting Odds Finder",
+				"description": "Engineered a serverless batched-data pipeline with Python to ingest, normalize and analyze sports betting odds using Pandas to find +EV/arbitrage opportunities, with scheduled execution using AWS Lambda function.Setup real time alerts for profitable bets using Amazon SES and configured AWS CloudWatch to monitor performance.",
+        "github": "https://github.com/Sanju311/plusEV-odds-finder",
+				"image": "/sports_betting.webp"
+			},
+      {
+				"title": "Insight.AI - AI Twitter Fact Checker Extension",
+				"description": "Built a chrome extension to fact check tweets by parsing HTML and passing context into GPT 3.5’s API using ReactJS. Used prompt engineering to get specific answers in appropriate formats from GPT. Developed a simple UI to display the output with the additional option to view the full output.",
+        "github": "https://github.com/Sanju311/TwitterFactCheck",
+				"image": "/insight_ai_final.png"
+			}
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "This is where you can describe about your contact. The more you describe about your contact, the more chances you have!",
+    "formId": "your-form-id"
+  },
+  "footer": {
+		"linkedin": "",
+		"twitter": "",
+		"github": ""
+	}
+}
