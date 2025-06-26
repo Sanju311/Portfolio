@@ -8,7 +8,7 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const [state, handleSubmit] = useForm(contact.formId);
+  const [state, handleSubmit] = useForm("xovwppra");
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;
   }
