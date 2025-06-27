@@ -48,13 +48,14 @@ const Projects = () => {
                 )}
               </div>
               <div className="lg:ml-12">
-                <Image 
-                  src={item.image} 
-                  alt="project image" 
-                  className="mt-6 md:mt-12 lg:mt-0 w-full shadow-lg" 
-                  width={700} 
-                  height={350}
-                />
+                <div className="relative w-[700px] h-[350px]">
+                  <Image
+                    src={item.image}
+                    alt="project image"
+                    fill
+                    className="object-cover rounded-lg shadow-lg"
+                  />
+                </div>
               </div>
             </li>
           ))}
