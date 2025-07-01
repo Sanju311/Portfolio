@@ -24,10 +24,16 @@ const About = () => {
           <div className="mt-6">
             <span>{about.secondary}</span>
           </div>
-          <div className="mt-6 mx-auto md:mx-0 rounded-lg py-2 px-4 w-fit text-center font-bold bg-gradient-to-r from-purple-500/40 via-pink-500/40 to-red-500/50 backdrop-blur-md transition-all duration-300 ease-in-out hover:scale-105">
-            <a href={'/new_grad_resume.pdf'} className="about__resume text-black " target="_blank">View Resume</a>
-          </div>
 
+
+          <div className="flex mt-4 gap-x-4">
+            <a href={'/new_grad_resume.pdf'} 
+              className=" mx-auto md:mx-0 rounded-lg py-2 px-4 w-fit text-center font-bold bg-gradient-to-r from-purple-500/40 via-pink-500/40 to-red-500/50 transition-all duration-300 ease-in-out hover:scale-105" 
+              target="_blank">
+                View Resume
+            </a>
+          </div>
+          
         </div>
       </div>
     </div>

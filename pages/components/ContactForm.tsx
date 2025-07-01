@@ -72,7 +72,7 @@ function ContactForm() {
           <button 
             type="submit"
             disabled={state.submitting}
-            className="mt-6 mx-auto md:mx-0 rounded-lg py-2 px-4 w-fit text-center text-black text-lg font-bold bg-gradient-to-r from-purple-500/40 via-pink-500/40 to-red-500/50 backdrop-blur-md transition-all duration-300 ease-in-out "
+            className="mt-6 mx-auto md:mx-0 rounded-lg py-2 px-4 w-fit text-center text-black text-lg font-bold bg-gradient-to-r  hover:scale-105 from-purple-500/40 via-pink-500/40 to-red-500/50 backdrop-blur-md transition-all duration-300 ease-in-out "
           > 
             Send
           </button>

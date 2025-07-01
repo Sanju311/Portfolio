@@ -22,29 +22,26 @@ const Projects = () => {
                   {item.description}
                 </p>
                 {item.url ? (
-                  <div className="flex mt-2 gap-x-4">
+                  <div className="flex mt-4 gap-x-4">
                     
-                    <div className="mt-4 mx-auto md:mx-0 rounded-lg py-2 px-4 w-fit text-center font-bold bg-gradient-to-r from-purple-500/40 via-pink-500/40 to-red-500/50 transition-all duration-300 ease-in-out hover:scale-105">
-                      <a href={item.url} target="_blank" rel="noreferrer">
-                        See Project
-                      </a>
-                    </div>
-                    <div className="mt-4 mx-auto md:mx-0 rounded-lg py-2 px-4 w-fit text-center font-bold bg-gradient-to-r from-purple-500/40 via-pink-500/40 to-red-500/50 transition-all duration-300 ease-in-out hover:scale-105">
-                      <a href={item.github} target="_blank" rel="noreferrer">
+                    
+                    <a href={item.url} target="_blank" rel="noreferrer" className=" rounded-lg py-2 px-4 w-fit text-center font-bold bg-gradient-to-r from-purple-500/40 via-pink-500/40 to-red-500/50 transition-all duration-300 ease-in-out hover:scale-105">
+                      See Project
+                    </a>
+               
+                    <a href={item.github} target="_blank" rel="noreferrer" className=" rounded-lg py-2 px-4 w-fit text-center font-bold bg-gradient-to-r from-purple-500/40 via-pink-500/40 to-red-500/50 transition-all duration-300 ease-in-out hover:scale-105">
                         Source Code
-                      </a>
-                    </div>
+                    </a>
+    
                   </div>
                 ) : (
-                  <div className="mt-4 mx-auto md:mx-0 rounded-lg py-2 px-4 w-fit text-center font-bold bg-gradient-to-r from-purple-500/40 via-pink-500/40 to-red-500/50 transition-all duration-300 ease-in-out hover:scale-105">
-                    <a href={item.github} target="_blank" rel="noreferrer">
-                     
-                      <a href={item.github} target="_blank" rel="noreferrer">
+                  <div className="flex mt-4 gap-x-4">
+                    <a href={item.github} target="_blank" rel="noreferrer" className="rounded-lg py-2 px-4 w-fit text-center font-bold bg-gradient-to-r from-purple-500/40 via-pink-500/40 to-red-500/50 transition-all duration-300 ease-in-out hover:scale-105">
                         Source Code
-                      </a>
-                      
                     </a>
                   </div>
+
+          
                 )}
               </div>
               <div className="lg:ml-12">
