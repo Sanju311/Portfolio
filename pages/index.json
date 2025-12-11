@@ -27,6 +27,13 @@
     "title": "Projects",
     "projects": [
       {
+        "title": "DeepDive.ai",
+        "description": "Built an AI-driven system-design interview platform using FastAPI, Postgres, and Next.js/React. Users interact with multiple voice agents powered by Vapi, design architectures through a drag-and-drop interface, and receive LLM-generated performance feedback. Real-time session state syncs across client, server, and agents via tool calls and Redis, with asynchronous evaluation delivered through client-side polling.",
+        "url": "https://deepdive-ai-app.vercel.app/",
+        "github": "https://github.com/Sanju311/DeepDive.ai-Frontend",
+        "image": "/3.png"
+      },
+      {
         "title": "AI Movie Suggestion Webapp",
         "description": "Deployed a full-stack AI webapp using Railway to provide personalized movie recommendations using Flask & React. I Developed a multi-threaded Selenium web scraper to efficiently scrape user rating history from their public Letterboxd profile. Using this data I trained an XGBoost model with 10+ features (Bag of Words/1 hot encoding) to predict user ratings on a 20000 movie dataset",
         "url": "https://movie-suggestion.up.railway.app/",
