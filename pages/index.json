@@ -41,6 +41,12 @@
         "image": "/movie-page-final.png"
       },
       {
+        "title": "Semantic LLM Cache",
+        "description": "Built a performant multi-tier LLM query caching system to reduce token costs by reusing responses for semantically similar queries via RedisSearch’s vector KNN search, Redis and FastAPI for asynchronous cache writes. I used a lightweight helper LLM to infer query time-sensitivity and assign cache TTL’s based on staleness risk. (Repo Currently Private)",
+        "github": "https://github.com/Sanju311/Semantic-LLM-Cache",
+        "image": "/SemanticCacheSystemDesignExpanded.png"
+      },
+      {
 				"title": "+EV Sports Betting Odds Finder",
 				"description": "Engineered a serverless batched-data pipeline with Python to ingest, normalize and analyze sports betting odds using Pandas to find +EV/arbitrage opportunities, with scheduled execution using AWS Lambda function.Setup real time alerts for profitable bets using Amazon SES and configured AWS CloudWatch to monitor performance.",
         "github": "https://github.com/Sanju311/plusEV-odds-finder",
