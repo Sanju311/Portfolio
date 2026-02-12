@@ -3,7 +3,7 @@
 Welcome to my personal software engineering portfolio! This site showcases my work, projects, experience, and interests — all built with performance, simplicity, and clean design in mind.
 
 ### 🚀 Live Demo  
-🔗 [View Live Portfolio](https://portfolio-git-main-sanju311s-projects.vercel.app/)
+🔗 [View Live Portfolio](https://portfolio-sanju-s.vercel.app/)
 
 ---
 
