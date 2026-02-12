@@ -42,7 +42,7 @@
       },
       {
         "title": "Semantic LLM Cache",
-        "description": "Built a performant multi-tier LLM query caching system to reduce token costs by reusing responses for semantically similar queries via RedisSearch’s vector KNN search, Redis and FastAPI for asynchronous cache writes. I used a lightweight helper LLM to infer query time-sensitivity and assign cache TTL’s based on staleness risk. (Repo Currently Private)",
+        "description": "Built a performant multi-tier LLM query caching system to reduce token costs by reusing responses for semantically similar queries via RedisSearch’s vector KNN search, Redis and FastAPI for asynchronous cache writes. I used a lightweight helper LLM to infer query time-sensitivity and assign cache TTL’s based on staleness risk.",
         "github": "https://github.com/Sanju311/Semantic-LLM-Cache",
         "image": "/SemanticCacheSystemDesignExpanded.png"
       },
