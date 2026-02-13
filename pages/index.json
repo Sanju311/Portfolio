@@ -53,11 +53,11 @@
 				"image": "/sports_betting.webp"
 			},
       {
-				"title": "Insight.AI - AI Twitter Fact Checker Extension",
-				"description": "Built a chrome extension to fact check tweets by parsing HTML and passing context into GPT 3.5’s API using ReactJS. Used prompt engineering to get specific answers in appropriate formats from GPT. Developed a simple UI to display the output with the additional option to view the full output.",
-        "github": "https://github.com/Sanju311/TwitterFactCheck",
-				"image": "/insight_ai_final.png"
-			}
+        "title": "AI Github Commit Message Critic",
+        "description": "Built a CLI tool with 2 main functions. 1. Analyze Mode: Uses an LLM  to generate a detailed commtit based on staged changes in current repo. 2. Critic Mode: Given a remote repo (defaults to current repo), analyzes last n commits and provides feedback on the commit messages.",
+        "github": "https://github.com/Sanju311/AI-Commit-Message-Critic",
+        "image": "/commit-critic.png"
+      }
     ]
   },
   "contact": {
